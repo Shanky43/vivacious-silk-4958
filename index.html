@@ -8,9 +8,9 @@
     <title>Shop Digital</title>
 
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
 </head>
 
 <body>
@@ -68,289 +68,81 @@
                 </div>
                 <!-- nav bar starts from here   -->
                 <nav class="nav_main">
-                    <ul class="nav_no_print">
-                        <li class="nav_container" id="mobiles&tablets_nav_node">
-                            <div class="nav_title">
-                                Mobiles &amp; Tablets
-                                <span class="fa fa-angle-down ml__4"></span>
+                       <div class="categorylist" >
+                        <ul class="nav_no_print">
+                            <li class="nav_container"  onmouseleave="hidelist()" >
+                                <div class="nav_title"  id="nav_title" onmouseenter="showlist()">Mobiles &amp; Tablets <span class="fa fa-angle-down ml__4"></span> </div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Televisions <span class="fa fa-angle-down ml__4"></span></div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Audio<span class="fa fa-angle-down ml__4"></span> </div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Home Appliances<span class="fa fa-angle-down ml__4"></span></div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Computers <span class="fa fa-angle-down ml__4"></span></div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Cameras<span class="fa fa-angle-down ml__4"></span> </div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Kitchen Appliances<span class="fa fa-angle-down ml__4"></span></div>
+                            </li>
+                        </ul>
+                       </div>
+                       <div class="flex" id="hovers" onmouseleave="hidelist()" onmouseenter="showlist()">
+                            <div class="flex-1">
+                                <ul>
+                                    <li class="nav_description_items"> Smartphones </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav_description_items">Wearable Technology</li>
+                                    <li class="nav_description_subitems">Top Selling Smartwatches</li>
+                                    <li class="nav_description_subitems"> Apple Price Drop </li>
+                                </ul>
+                                <ul>
+                                    <li class="nav_description_items">
+                                        <span class="cursorDefault">Accessories</span>
+                                    </li>
+                                    <li class="nav_description_subitems">Tablet Accessories</li>
+                                    <li class="nav_description_subitems"> Mobile Accessories</li>
+                                    <li class="nav_description_subitems"> Mobile Grips & Stands </li>
+                                    <li class="nav_description_subitems">Car Mobile Holders</li>
+                                    <li class="nav_description_subitems">Memory Cards</li>
+                                    <li class="nav_description_subitems">Cables & Cords</li>
+                                    <li class="nav_description_subitems">Chargers & Adapters </li>
+                                </ul>
                             </div>
-                            <div class="nav_description">
-                                <div class="flex">
-                                    <div class="div1">
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Smartphones
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Wearable Technology</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Top Selling Smartwatches</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Apple Price Drop</a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <span class="cursorDefault">Accessories</span>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Tablet Accessories</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Mobile Accessories</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Mobile Grips & Stands</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Car Mobile Holders</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Memory Cards</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline&Cords">Cables & Cords</a>
-                                            </li>
-                                            <li class="nav_description_subitems">
-                                                <a href="" class="nav_dis_hoverline">Chargers & Adapters</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="div2">
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Headphones & Headsets</a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Headphones & Headsets</a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Tablets & eReaders</a>
-                                            </li>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Every Day use Tablets below
-                                                    15000</a>
-                                            </li>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Premium Tablets, Above 15001</a>
-                                            </li>
-                                        </ul>
+                            <div class="flex-2">
+                                <ul>
+                                    <li class="nav_description_items">Headphones & Headsets</li>
+                                </ul>
+                                <ul>
+                                    <li class="nav_description_items">Headphones & Headsets</li>
+                                </ul>
+                                <ul>
+                                    <li class="nav_description_items">Tablets & eReaders</li>
+                                    <li class="nav_description_items">Every Day use Tablets below 15000</li>
+                                    <li class="nav_description_items">Premium Tablets, Above 15001</li>
+                                </ul>
+                                <ul>
+                                    <li class="nav_description_items"> Power Banks</li>
+                                  </ul>
+                                  <ul>
+                                    <li class="nav_description_items">eSlates</li>
+                                  </ul>
+                            </div>
+                            <div class="flex-3">
+                                <ul>
+                                  <li class="nav_description_items">AI Learning Robots</li>
+                                </ul>
+                                </div>
 
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">Power Banks</a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">eSlates</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="div3">
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <a href="" class="nav_dis_hoverline">AI Learning Robots</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="nav_container" id="tv&speakers">
-                            <div class="nav_title">Televisions
-                                <span class="fa fa-angle-down ml__4"></span>
-                            </div>
-                            <div class="nav_description">
-                                <div class="flex">
-                                    <div class="div1">
-                                        <ul>
-                                            <li class="nav_description_items"><a href=""
-                                                    class="nav_description_hoverLine" target="">Televisions</a></li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">Smart
-                                                    TVs</a></li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">32
-                                                    Inch
-                                                    TVs</a></li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">43
-                                                    Inch
-                                                    TVs</a></li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">55
-                                                    Inch
-                                                    TVs</a></li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">Android
-                                                    TVs</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="div2">
-                                        <ul>
-                                            <li class="nav_description_items">
-                                                <span class="cursorDefault">Gaming</span>
-                                            </li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">Gaming Consoles</a>
-                                            </li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">Gaming Accessories</a>
-                                            </li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">Gaming Titles</a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items"><a href="" class="nav_dis_hoverline"
-                                                    target="">Projectors</a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items"><a href="" class="nav_dis_hoverline"
-                                                    target="">Streaming Devices</a>
-                                        </ul>
-                                    </div>
-                                    <div class="div3">
-                                        <ul>
-                                            <li class="nav_description_items"><a href="" class="nav_dis_hoverline"
-                                                    target="">Reconnect
-                                                    Disney | Marvel Audio Collection</a>
-                                            </li>
-                                        </ul>
-                                        <ul>
-                                            <li class="nav_description_items"><span class="nav_dis_hoverline">TV &amp;
-                                                    Audio
-                                                    Accessories</span>
-                                            </li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">Virtual Reality
-                                                    Headsets</a>
-                                            </li>
-                                            <li class="nav_description_subitems"><a href="" class="nav_dis_hoverline"
-                                                    target="">Stabilizers & Surge
-                                                    Protectors</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- audio nav will  start here-->
-                        <li class="nav_container" id="RIL_navigationNode">
-                            <div class="nav_title">Audio<span class="fa fa-angle-down ml__4"></span></div>
-                            <div class="nav_description">
-                                <div class="flex">
-                                    <div class="div1">
-                                        <ul>
-                                            <li class="nav_description_items"><a class="nav_dis_hoverline" href=""
-                                                    target="">Headphones &amp; Headsets</a></li>
-                                            <li class="nav_description_subitems"><a class="TrueWireless" href=""
-                                                    target="">True
-                                                    Wireless</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Bluetooth Neckbands</a>
-                                            </li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Wired Earphones</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">On
-                                                    Ear Headphones</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Noise Cancelling Headphones</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="div2">
-                                        <ul>
-                                            <li class="nav_description_items"><a class="nav_dis_hoverline" href=""
-                                                    target="">Bluetooth
-                                                    &amp; WiFi
-                                                    Speakers</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline " href=""
-                                                    target="">Bluetooth Speakers </a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Smart Speakers</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="div3">
-                                        <ul>
-                                            <li class="nav_description_items"><a class=">nav_dis_hoverline" href=""
-                                                    target="">TV Speakers &amp; Soundbars</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Soundbars</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Home Theatre Systems</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Party speakers</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Multimedia</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="div4">
-                                        <ul>
-                                            <li class="nav_description_items"><a class="nav_dis_hoverline" href=""
-                                                    target="">Musical
-                                                    Instruments</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Guitars and Ukuleles</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Microphones</a></li>
-                                            <li class="nav_description_subitems"><a class="nav_dis_hoverline" href=""
-                                                    target="">Musical Keyboards</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- home appliances starts here -->
-                        <li class="nav_container">
-                            <div class="nav_title">Home Appliances
-                                <span class="fa fa-angle-down ml__4"></span>
-                            </div>
-                        </li>
-                        <!-- computers section will start here -->
-                        <li class="nav_container">
-                            <div class="nav_title">Computers
-                                <span class="fa fa-angle-down ml__4"></span>
-                            </div>
-                        </li>
-                        <!-- camera nav section will start here -->
-                        <li class="nav_container">
-                            <div class="nav_title">Cameras
-                                <span class="fa fa-angle-down ml__4"></span>
-                            </div>
-                        </li>
-
-                        <!-- kitchen appliance  nav section will start here -->
-                        <li class="nav_container">
-                            <div class="nav_title">Kitchen Appliances
-                                <span class="fa fa-angle-down ml__4"></span>
-                            </div>
-                        </li>
-                        <!-- PERSONAL CARE  nav section will start here -->
-                        <li class="nav_container">
-                            <div class="nav_title">PERSONAL CARE
-                                <span class="fa fa-angle-down ml__4"></span>
-                            </div>
-                        </li>
-                        <!--Accessories  nav section will start here -->
-                        <li class="nav_container">
-                            <div class="nav_title">Accessories
-                                <span class="fa fa-angle-down ml__4"></span>
-                            </div>
-                        </li>
-                    </ul>
+                       </div>
+                                        
                 </nav>
             </div>
         </header>
@@ -400,7 +192,8 @@
         <section id="watchsection">
             <div class="section-3pricedrop">
                 <span class="mss_title" style="border-right: 1px solid rgb(51, 51, 51);">Price Drop on Apple
-                    Smartwatches</span> <span style="padding-left: 20px; color: #003380; font-weight: bold;">VIEW
+                    Smartwatches</span> <span class="descviewall"
+                    style="padding-left: 20px; color: #003380; font-weight: bold; cursor: pointer;">VIEW
                     ALL</span>
             </div>
             <div class="blk">
@@ -473,85 +266,478 @@
                 <div>
                     <span class="mss_title" style="border-right: 1px solid rgb(51, 51, 51);">Biggest Price Drop on Room
                         Heaters</span>
-                    <span class="mss_view-all" style="padding-left: 20px; color: #003380; text-transform: uppercase; font-weight: bold;">View all</span>
-                </div> 
+                    <span class="mss_view-all"
+                        style="padding-left: 20px; color: #003380; text-transform: uppercase; font-weight: bold; cursor: pointer;">View
+                        all</span>
+                </div>
                 <div class="blk">
                     <div class="multi-slider">
-                        <button type="button"  class="slick-arrowleft " style="display: block;"><i class="fa fa-chevron-left fa-2x" aria-hidden="true" style="color:grey"></i> </button>
+                        <button type="button" class="slick-arrowleft " style="display: block;"><i
+                                class="fa fa-chevron-left fa-2x" aria-hidden="true" style="color:black"></i> </button>
                         <div class="slick-list">
                             <div class="swiper1">
-                           
-                                    <div class="swiper-slide1">
-                                        <div>
-                                            <img
-                                            src="https://www.reliancedigital.in/medias/Usha-QH-3002-Radiators-490784083-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDg4Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaDdhL2g4Ni85NDE2NTExNTUzNTY2LmpwZ3xmMTQyY2Y0ZDZkZWZmZDRmM2ZjNTgyMGMwNGQ4ODI0MzBiOWIxOTc4NTZhOTRhMDQ0ZmEwNTYzNGNjMzBmN2Mx"
+
+                                <div class="swiper-slide1">
+                                    <div>
+                                        <img src="https://www.reliancedigital.in/medias/Usha-QH-3002-Radiators-490784083-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDg4Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaDdhL2g4Ni85NDE2NTExNTUzNTY2LmpwZ3xmMTQyY2Y0ZDZkZWZmZDRmM2ZjNTgyMGMwNGQ4ODI0MzBiOWIxOTc4NTZhOTRhMDQ0ZmEwNTYzNGNjMzBmN2Mx"
                                             alt="Smartwatch-Carnival-Carousel-Banner-D">
-                                            <h4>Usha Quartz QH 3002 Fan-based Heater with Low Power Consumption</h4>
-                                            <p> Deal price : <b>₹1,249.00</b></p>
-                                            <p>M.R.P : <s><em>₹1,890.00</em></s></p>
-                                            <p>You Save : 34%(₹641)</p>
-                                            <p class="offp"  style="color: #44af40;"    >OFFER AVAILABLE</p>
-                                        </div>
-                                  <div>
-                                    <img
-                                    src="https://www.reliancedigital.in/medias/Candes-Infra3-Radiators-493620550-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MjU1MnxpbWFnZS9qcGVnfGltYWdlcy9oZmUvaDg4Lzk4OTIxODQ4NTA0NjIuanBnfDY3MWJlM2Y2YTRkNjMwYjcxMzBiYzA5N2ZlMzEyNTE2ZjBjM2NiZGIzNjFmOWVjMThkNzI5ZWY2ZDkwMmZmYzQ"
-                                    alt="Smartwatch-Carnival-Carousel-Banner-D">
-                                    <h4>Candes Infra3 Noiseless 1200 Watts Halogen Room Heater</h4>
-                                    <p> Deal price : <b>₹1,799.00</b></p>
-                                    <p>M.R.P : <s><em>₹2,690.00</em></s></p>
-                                    <p>You Save : 34%(₹900)</p>
-                                    <p class="offp"  style="color: #44af40;">OFFER AVAILABLE</p>
-                                  </div>
-                                       <div>
-                                        <img
-                                        src="https://www.reliancedigital.in/medias/Candes-INOVARH1CC-Heater-493627147-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMjkxOXxpbWFnZS9qcGVnfGltYWdlcy9oOTQvaDRiLzk5MTgwMDcwODMwMzguanBnfGFhMDZlZjI4NzAzNTIwMjQyNjI2ZjkzY2YxNDk2NzU2ZmIzZTdhZTM5MWUwYmE5Mzg4NDZlOWE2ZTYwNjQxZjE"
-                                        alt="Smartwatch-Carnival-Carousel-Banner-D">
-                                        <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White, INOVARH1CC</h4>
+                                        <h4>Usha Quartz QH 3002 Fan-based Heater with Low Power Consumption</h4>
+                                        <p> Deal price : <b>₹1,249.00</b></p>
+                                        <p>M.R.P : <s><em>₹1,890.00</em></s></p>
+                                        <p>You Save : 34%(₹641)</p>
+                                        <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://www.reliancedigital.in/medias/Candes-Infra3-Radiators-493620550-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MjU1MnxpbWFnZS9qcGVnfGltYWdlcy9oZmUvaDg4Lzk4OTIxODQ4NTA0NjIuanBnfDY3MWJlM2Y2YTRkNjMwYjcxMzBiYzA5N2ZlMzEyNTE2ZjBjM2NiZGIzNjFmOWVjMThkNzI5ZWY2ZDkwMmZmYzQ"
+                                            alt="Smartwatch-Carnival-Carousel-Banner-D">
+                                        <h4>Candes Infra3 Noiseless 1200 Watts Halogen Room Heater</h4>
+                                        <p> Deal price : <b>₹1,799.00</b></p>
+                                        <p>M.R.P : <s><em>₹2,690.00</em></s></p>
+                                        <p>You Save : 34%(₹900)</p>
+                                        <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://www.reliancedigital.in/medias/Candes-INOVARH1CC-Heater-493627147-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMjkxOXxpbWFnZS9qcGVnfGltYWdlcy9oOTQvaDRiLzk5MTgwMDcwODMwMzguanBnfGFhMDZlZjI4NzAzNTIwMjQyNjI2ZjkzY2YxNDk2NzU2ZmIzZTdhZTM5MWUwYmE5Mzg4NDZlOWE2ZTYwNjQxZjE"
+                                            alt="Smartwatch-Carnival-Carousel-Banner-D">
+                                        <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White,
+                                            INOVARH1CC</h4>
                                         <p> Deal price : <b>₹1,499.00</b></p>
                                         <p>M.R.P :<s> <em>₹1,699.00</em></s></p>
                                         <p>You Save : 12%(₹200)</p>
-                                        <p class="offp"  style="color: #44af40;">OFFER AVAILABLE</p>
-                                       </div>
-                                       <div>
-                                        <img
-                                        src="https://www.reliancedigital.in/medias/Candes-Gloster-Radiators-493620551-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMTY5NXxpbWFnZS9qcGVnfGltYWdlcy9oMzMvaDU5Lzk4Nzk3MjQwNjQ3OTguanBnfDFiZjM0MDE0ZmUxMGVmNTVmMGEyN2MwNTZmM2IzZGY3MGU3OWNiYTJkMGEwYzYwNzlkMGU4Y2Y5YjU1ODAzZDU"
-                                        alt="Smartwatch-Carnival-Carousel-Banner-D">
-                                        <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White, INOVARH1CC</h4>
+                                        <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
+                                    </div>
+                                    <div>
+                                        <img src="https://www.reliancedigital.in/medias/Candes-Gloster-Radiators-493620551-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMTY5NXxpbWFnZS9qcGVnfGltYWdlcy9oMzMvaDU5Lzk4Nzk3MjQwNjQ3OTguanBnfDFiZjM0MDE0ZmUxMGVmNTVmMGEyN2MwNTZmM2IzZGY3MGU3OWNiYTJkMGEwYzYwNzlkMGU4Y2Y5YjU1ODAzZDU"
+                                            alt="Smartwatch-Carnival-Carousel-Banner-D">
+                                        <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White,
+                                            INOVARH1CC</h4>
                                         <p> Deal price : <b>₹1,319.00</b></p>
                                         <p>M.R.P : <s><em>₹1,699.00</em></s></p>
                                         <p>You Save : 22%(₹380)</p>
-                                        <p class="offp"  style="color: #44af40; padding: 0px;">OFFER AVAILABLE</p>
-                                     
-                                       </div>
-                                   <div>
-                                    <img
-                                    src="https://www.reliancedigital.in/medias/Candes-Infra2-Radiators-493620549-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2NTY5N3xpbWFnZS9qcGVnfGltYWdlcy9oNDIvaDVmLzk4Nzk3MjQ0NTgwMTQuanBnfDgxMTEyOGQ2MGM0OThlMjdjZWZkMzBjZjhlNzcwM2JhYzM2N2I3ZTdmMmRjNTAxYjNkMTk3YTg2OGY4ZTY5MTI"
-                                    alt="Smartwatch-Carnival-Carousel-Banner-D">
-                                    <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White, INOVARH1CC</h4>
-                                    <p> Deal price : <b>₹1,299.00</b></p>
-                                    <p>M.R.P : <s><em>₹2,299.00</em></s></p>
-                                    <p>You Save : 43%(₹1000)</p>
-                                    <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
-                                   </div>
+                                        <p class="offp" style="color: #44af40; padding: 0px;">OFFER AVAILABLE</p>
+
                                     </div>
+                                    <div>
+                                        <img src="https://www.reliancedigital.in/medias/Candes-Infra2-Radiators-493620549-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2NTY5N3xpbWFnZS9qcGVnfGltYWdlcy9oNDIvaDVmLzk4Nzk3MjQ0NTgwMTQuanBnfDgxMTEyOGQ2MGM0OThlMjdjZWZkMzBjZjhlNzcwM2JhYzM2N2I3ZTdmMmRjNTAxYjNkMTk3YTg2OGY4ZTY5MTI"
+                                            alt="Smartwatch-Carnival-Carousel-Banner-D">
+                                        <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White,
+                                            INOVARH1CC</h4>
+                                        <p> Deal price : <b>₹1,299.00</b></p>
+                                        <p>M.R.P : <s><em>₹2,299.00</em></s></p>
+                                        <p>You Save : 43%(₹1000)</p>
+                                        <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
                                     </div>
-                                  
                                 </div>
-                                <div class="swiper-button-prev1"></div>
-                                <div class="swiper-button-next1"></div>
                             </div>
-                            <button type="button"  class="slick-arrowright " style="display: block;"><i class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:grey"></i> </button>
+
+                        </div>
+                        <div class="swiper-button-prev1"></div>
+                        <div class="swiper-button-next1"></div>
                     </div>
-                    
+                    <button type="button" class="slick-arrowright " style="display: block;"><i
+                            class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:black"></i> </button>
                 </div>
             </div>
-
-        </section>
-
-
-
-
     </div>
+    </section>
+    <section class="greatdeals">
+        <div class="mss-mb_32">
+            <span class="mss_title"> GREAT DEALS ON ELECTRONICS </span>
+        </div>
+        <div class="home_4banner">
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/Smartwatches-Small-Banners-01.jpg?context=bWFzdGVyfGltYWdlc3w0NDA0MnxpbWFnZS9qcGVnfGltYWdlcy9oNTAvaGRiLzk5MjgzNzA5MTMzMTAuanBnfGYwOWU2ZjQ3Y2Y0OWI2NmVhZGVkYWM2M2ZiMzQ4YTlhODRkZDY4ODZmODA1OGQyZWNiYWVhODNmNWM2YWMwMmY"
+                        alt="Smartwatches-Small-Banners-01.jpg" title="Smartwatches-Small-Banners-01.jpg"
+                        class="imgCenter">
+                </div>
+            </div>
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load1">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/Realme-Smart-TV-Great-Deals-Banner-13-12-2022.jpg?context=bWFzdGVyfGltYWdlc3w3NzY3MHxpbWFnZS9qcGVnfGltYWdlcy9oNzUvaDg2Lzk5MzExODY3NjU4NTQuanBnfDA5YzNlMTkwNmM0ZWI3ZGJlYjI5Y2E0ZmQ5M2M5YjNkZmZjZmVlMjBmOGU1ZGIwNDY3NjFhNTcwMWM4ZmFlOWI"
+                        alt="Realme-Smart-TV-Great-Deals-Banner-13_12_2022.jpg"
+                        title="Realme-Smart-TV-Great-Deals-Banner-13_12_2022.jpg" class="imgCenter">
+                </div>
+            </div>
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/Printers-Small-Banners-01-1-.jpg?context=bWFzdGVyfGltYWdlc3w0MDAwNHxpbWFnZS9qcGVnfGltYWdlcy9oNGYvaGQxLzk5Mjg3MzAzNDU1MDIuanBnfGMyNTg3NWQyZWRmMGU2M2EzZmEwM2U2MWNlMTA3ZWQzYjk4MmRhM2EzYjY0N2FiZGM4OGFlYWQ2NjBlZjE4YWE"
+                        alt="Printers-Small-Banners_01 (1).jpg" title="Printers-Small-Banners_01 (1).jpg"
+                        class="imgCenter">
+                </div>
+                </a>
+            </div>
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/Washing-Machines-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NDcwMHxpbWFnZS9qcGVnfGltYWdlcy9oNWIvaDUwLzk5MTM3Nzc3MTcyNzguanBnfGMyNWJhNDNiMTFkMjE4YmQ2OGRiMzdkMGIxNmZmZDhiYzViMTBjY2I1ZDllYzAyMWFjN2FlZTU1ZGVmMDk4MmU"
+                        alt="Washing Machines-Small Banners.jpg" title="Washing Machines-Small Banners.jpg"
+                        class="imgCenter" id="">
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+    </section>
+    <section class="greatdeals-1">
+        <div class="mss-mb_32"><span class="mss_title"> </span></div>
+        <div class="home_4banner">
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/Smart-Home-Products-Great-Deals-Banner-22-11-2022.jpg?context=bWFzdGVyfGltYWdlc3wzOTAxM3xpbWFnZS9qcGVnfGltYWdlcy9oMDYvaDMxLzk5MzExOTE5NDMxOTguanBnfDhiY2ZkOWE5YmQ3OWFkYmM2OWUwNjIwODQ4NGFkMWI4MDExZGQ5ZTIyNzkyMmZiMDM2ZDcyYjRkM2M4NmQ0MTA"
+                        alt="Smart-Home-Products-Great-Deals-Banner-22_11_2022.jpg"
+                        title="Smart-Home-Products-Great-Deals-Banner-22_11_2022.jpg" class="imgCenter">
+                </div>
+            </div>
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/True-Wireless-Small-Banners.jpg?context=bWFzdGVyfGltYWdlc3w0NjcyOXxpbWFnZS9qcGVnfGltYWdlcy9oODAvaDljLzk5MTM3NzcyNTg1MjYuanBnfGY3MDIxZDZlYTBhMjEwYjQ4NGIzMmQwZjdjMzQ2M2FhYzIwYWE0NGE4MzFmYjRlZjQwNzFlZjk2NWMwMzYxN2Y"
+                        alt="True-Wireless-Small Banners.jpg" title="True-Wireless-Small Banners.jpg" class="imgCenter"
+                        id="">
+                </div>
+                </a>
+            </div>
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/Samsung-M13-5G-Great-Deals-Banner-22-11-2022.jpg?context=bWFzdGVyfGltYWdlc3wzNDUzN3xpbWFnZS9qcGVnfGltYWdlcy9oNDgvaGY3Lzk5MjM5MDIzNDExNTAuanBnfDdiZjliNDZlOWUxZDFjZDQ2MDkzYjdjZDZhNDVlNWI0MGYwNTAwOWJkOWM4MWUzMTUyYmNmZmRmZjk3NjIwYjk"
+                        alt="Samsung-M13-5G-Great-Deals-Banner-22_11_2022.jpg"
+                        title="Samsung-M13-5G-Great-Deals-Banner-22_11_2022.jpg" class="imgCenter">
+                </div>
+                </a>
+            </div>
+            <div class="move_left" style="width: 25%;">
+                <div class="lazy-load">
+                    <div class="autoAdjust"></div>
+                    <img src="https://www.reliancedigital.in/medias/MackBook-Appliances-Small-banners.jpg?context=bWFzdGVyfGltYWdlc3w0Mjc0NXxpbWFnZS9qcGVnfGltYWdlcy9oNTYvaDkyLzk5MTkwODgzMjg3MzQuanBnfDcxYmMyMDMxMjdiMzUxYzE2NmJkYTU4ZDBlNTQxNjBkZWViYjQ1Mzc2Y2IyOWYwNTllODhkNmRlZjA0NjM3NmI"
+                        alt="MackBook-Appliances-Small-banners.jpg" title="MackBook-Appliances-Small-banners.jpg"
+                        class="imgCenter">
+                </div>
+                </a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <section>
+        <div class="imageslider-1">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide"><img
+                            src="https://www.reliancedigital.in/medias/airpods-pro-2nd-gen-Buy-now-NPI-Banner-01-11-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMDM4NjB8aW1hZ2UvanBlZ3xpbWFnZXMvaDQ2L2g2Ny85OTIyNDU2MTkxMDA2LmpwZ3w0MGQxZjFhYjQ0ZjU1NTQzZjJiOGJmYzZhMDg5NTY5M2Y3NzIxZDkzOTQ2Yjg4YmNmOWZlMzc4OWM0YjlkMjA2"
+                            alt="Smartwatch-Carnival-Carousel-Banner-D"></div>
+                    <div class="swiper-slide"><img
+                            src="https://www.reliancedigital.in/medias/iPad-10th-Gen-NPI-Banner-Available-now-27-10-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMDYzNDB8aW1hZ2UvanBlZ3xpbWFnZXMvaGY2L2hiMS85OTEzNjU2NDEwMTQyLmpwZ3wxNTJiZjhiZDMxYTcyZWJmMGM4MzE4OTdlYjkzOGMwYWMzM2E0Mzk1YWFiNTQzZjdiYmJkOTJlNGQ3Yjk5MDBm"
+                            alt="Entertainment-Fest-Carousel-Banner-08-D"></div>
+                    <div class="swiper-slide"><img
+                            src="https://www.reliancedigital.in/medias/iPad-Pro-NPI-Banner-Available-now-27-10-2022.jpg?context=bWFzdGVyfGltYWdlc3wxMDYwNjh8aW1hZ2UvanBlZ3xpbWFnZXMvaDNlL2gyMC85OTEzNjU2NTQxMjE0LmpwZ3wwOTcxYjg0MTc5NDQxNDcwNTRjMzcwNjkxYWJlNGI2NDk3ZjkyYzNhNzM5NWY3NzM0NTRiYjA3ODA1MzRiOWFk"
+                            alt=""></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </section>
+    <section class="promise">
+        <div>
+            <div class="promise_title">
+                <h2 class="promise_title_heading">The reliance digital brand promise</h2>
+            </div>
+            <div class="promise_details">
+                <div class="promise_details_block">
+                    <div class="block-item">
+                        <div class="block-item_link">
+                            <div class="image-container">
+                                <div class="lazy-load">
+                                    <img src="https://www.reliancedigital.in/medias/Insta-Delivery-Brand-Promise-Icon.png?context=bWFzdGVyfGltYWdlc3wxNTM3fGltYWdlL3BuZ3xpbWFnZXMvaGI2L2gwNS85NDQ3MTcwMzQyOTQyLnBuZ3w2Yzc1ZmY1ZjYwOWIyNWU0ZTgwMjFlYmRkMTU5ZTgzMGI4ZDNmZTE2NjVjYmRlMmUwMmRiODI2OTExNWM5ZTdk"
+                                        alt="Insta Delivery - Brand Promise Icon.png" class="lazy-load_1" id="">
+
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h3 class="text-container_text">INSTA DELIVERY</h3>
+                                <p class="text-container_sub-text">Less than 3 hrs.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="promise_details_block">
+                    <div class="block-item">
+                        <div class="block-item_link">
+                            <div class="image-container">
+                                <div class="lazy-load">
+                                    <img src="https://www.reliancedigital.in/medias/Best-Finance-Options-2.png?context=bWFzdGVyfGltYWdlc3wxMjM4fGltYWdlL3BuZ3xpbWFnZXMvaDJmL2gxOS85NDQ3MTcwNDA4NDc4LnBuZ3xlMDBiNjY4YWI5YzMzYjZkZDhlZTMyMDhjYjE2YzI2OTY2NWJhYjk2M2VkNzdjZDg3NTNlMGEyMTA1ZjFlODZh"
+                                        alt="Best Finance Options - 2.png" class="lazy-load_1" id="">
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h3 class="text-container_text">BEST FINANCE OPTIONS</h3>
+                                <p class="text-container_sub-text">Wide range</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="promise_details_block">
+                    <div class="block-item">
+                        <div class="block-item_link">
+                            <div class="image-container">
+                                <div class="lazy-load">
+                                    <img src="https://www.reliancedigital.in/medias/service-img.png?context=bWFzdGVyfGltYWdlc3w5MTB8aW1hZ2UvcG5nfGltYWdlcy9oMDYvaGEzLzkwOTA3OTc5OTQwMTQucG5nfGJjZmJhNzM1ODdkYTQ5ODI3YzNiMzQ1ZTdlM2JjNjUwMTBjM2E3YWFjNmUxZjdmMmEyOGRjZDMxOGI4ZWE0MWY"
+                                        alt="service-img.png" class="lazy-load_1" id="">
+
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h3 class="text-container_text">SERVICE GUARANTEE</h3>
+                                <p class="text-container_sub-text">Hassle free</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="promise_details_block">
+                    <div class="block-item">
+                        <div class="block-item_link">
+                            <div class="image-container">
+                                <div class="lazy-load">
+                                    <img src="https://www.reliancedigital.in/medias/unmatched-network-img.png?context=bWFzdGVyfGltYWdlc3w3NDV8aW1hZ2UvcG5nfGltYWdlcy9oODIvaDJhLzkwOTA3OTgwNTk1NTAucG5nfDFmMThjYzdiYTNiOTgxYjA5YzdlZTFiMmQyODI5MGY2NTM4ZTcxOWZkZTA1ZjAzY2Q1ZTk5YjQ1NTMxMWViYzU"
+                                        alt="unmatched-network-img.png" class="lazy-load_1" id="">
+
+                                </div>
+                            </div>
+                            <div class="text-container">
+                                <h3 class="text-container_text">UNMATCHED NETWORK</h3>
+                                <p class="text-container_sub-text">700 cities,2000 stores</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rgp">
+        <div class="rgp_title">Explore Our Range Of Products</div>
+        <div class="rgp_main">
+            <button type="button" class="slick-arrowleft2" style="display: block;"><i class="fa fa-chevron-left fa-2x"
+                    aria-hidden="true" style="color:black"></i> </button>
+            <div class="rgp_products">
+
+                <div class="s1">
+                    <div>
+                        <img src="https://www.reliancedigital.in/medias/iphone-pro-11-01.png?context=bWFzdGVyfGltYWdlc3wyOTc3NnxpbWFnZS9wbmd8aW1hZ2VzL2gxNi9oNWUvOTI3NjA1OTkxMDE3NC5wbmd8MzdkYzljODgzMDcyM2ZjMjJmZDI2ZjMwNjhkZmU5YjFmOTJmMGRmOTFiYzc4ZjcyMDRhMjQ5MWMyNjYwOTgxYg"
+                            alt="mobile">
+                        <div>
+                            <h3 class="rgp_txt">Smartphones</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://www.reliancedigital.in/medias/Washing-Machine-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3wzNDU4MXxpbWFnZS9wbmd8aW1hZ2VzL2gzOC9oM2UvOTI1MTA1MDg4MTA1NC5wbmd8ZDAyZGNkMzU1MzE3N2E2OGFlOTliMzUyODZkYzlkNTc0NzFmODllY2JiZDVlNzdhYjg3MTgyMTc4ZGVhODA3ZA"
+                            alt="">
+                        <div>
+                            <h3 class="rgp_txt">Washing Machines</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://www.reliancedigital.in/medias/Laptop-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3wyOTAwOXxpbWFnZS9wbmd8aW1hZ2VzL2g0Mi9oNTYvOTI1MTA1MDYxODkxMC5wbmd8N2ZjYTg0ZDAyOTZmMmQ5OTZhZDNiM2M4NDg0ZDgxY2UyNzNjMmJiYzMwZTZiOGQwOWE5N2JlZDI4M2ViMGZjNw"
+                            alt="">
+                        <div>
+                            <h3 class="rgp_txt">Laptops</h3>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://www.reliancedigital.in/medias/TV-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3w0OTM4M3xpbWFnZS9wbmd8aW1hZ2VzL2g1ZC9oMTEvOTI1MTA1MDU1MzM3NC5wbmd8MThiNmU4NTZiNWI5MTE1ZGVjYjA4ZjIwM2QwZjUyMzFlOGExZTY0YmQ0MTRkYTkyN2M2MDZiYzUzZDY1ZjM4Ng"
+                            alt="">
+                        <div>
+                            <h3 class="rgp_txt">Televisions</h3>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img src="https://www.reliancedigital.in/medias/Watch-180x180-27-02-2020.png?context=bWFzdGVyfGltYWdlc3w2Njk2fGltYWdlL3BuZ3xpbWFnZXMvaGQ1L2g2My85MjUzNTA3NTk2MzE4LnBuZ3w4NmEwODU5NDI5YzVlMzJjNzRlNzNlYmJkMmJmYTZjMTI2OWY0YTUxYWU3YzMzM2E3YTc5YjljZmU4ZGMyNGQ2"
+                            alt="">
+                        <div>
+                            <h3 class="rgp_txt">Smart Wearables</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="s2">
+            <div>
+                <img src="https://www.reliancedigital.in/medias/Watch-180x180-27-02-2020.png?context=bWFzdGVyfGltYWdlc3w2Njk2fGltYWdlL3BuZ3xpbWFnZXMvaGQ1L2g2My85MjUzNTA3NTk2MzE4LnBuZ3w4NmEwODU5NDI5YzVlMzJjNzRlNzNlYmJkMmJmYTZjMTI2OWY0YTUxYWU3YzMzM2E3YTc5YjljZmU4ZGMyNGQ2" alt="">
+                <div>
+                    <h3 class="rgp_txt">Smart Wearables</h3>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.reliancedigital.in/medias/Explore-Our-Range-of-Products-Ref.png?context=bWFzdGVyfGltYWdlc3wxNDQwMXxpbWFnZS9wbmd8aW1hZ2VzL2hlZC9oMjQvOTg5MjQwNzUwOTAyMi5wbmd8NTc5ZWE5ZGEzYTYzODYwNDNlNTRhNjExZjcyZGI4NzQ1YmE0NDVjYmUwY2M3MzRiZjFkMWZmNDY3NTMxYjNkMA" alt="">
+                <div>
+                    <h3 class="rgp_txt">Smart Refrigerators</h3>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.reliancedigital.in/medias/Speaker-Headset-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3wyNzUzN3xpbWFnZS9wbmd8aW1hZ2VzL2g1YS9oODAvOTI1MTA1MDY4NDQ0Ni5wbmd8YmMyYWJiNzRhMzk4NjMxMDRmOWRlZGI1MzVjZDk2Y2IxYTkxOGNlNjlmZjA2YTgwMGIwMjhmYTJlYmNhYjIwOA" alt="">
+                <div>
+                    <h3 class="rgp_txt">Speakers & Headsets</h3>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.reliancedigital.in/medias/Camera-180x180-15-01-2019.png?context=bWFzdGVyfGltYWdlc3w0MzE0OHxpbWFnZS9wbmd8aW1hZ2VzL2gzNi9oMGMvOTI1MTA1MDc0OTk4Mi5wbmd8NDMxMGMyNjg2M2I3ZDFhOTc4YjkzMTNhYWM1ZmU5YzRlMjc3Mzg4MDcxOTU1OGE0NzZjODczZWU3NTdhMTM0MA" alt="">
+                <div>
+                    <h3 class="rgp_txt">Cameras</h3>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.reliancedigital.in/medias/Explore-Our-Range-of-Products-AC.png?context=bWFzdGVyfGltYWdlc3wxNzI3NnxpbWFnZS9wbmd8aW1hZ2VzL2hmMy9oNDMvOTg5MjQwNzQ0MzQ4Ni5wbmd8ODkxZDlkYTUxODhkM2RiOWUzMTU4ZDZhYmVkYTM3MzE2MDEyNDEzODMzNWZlZWQ5ZDQwMzNmMWM1OTliZGYwZA" alt="">
+                <div>
+                    <h3 class="rgp_txt">Air Conditioners</h3>
+                </div>
+            </div>
+    
+    
+    
+           </div> -->
+
+            </div>
+            <button type="button" class="slick-arrowright2 " style="display: block;"><i
+                    class="fa fa-chevron-right fa-2x" aria-hidden="true" style="color:black"></i> </button>
+        </div>
+        </div>
+    </section>
+    <section>
+        <div class="viewall">
+            <button class="viewallbtn">
+                View All
+            </button>
+
+
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer1">
+            <div class="productcat">
+                <div>
+                    <ul>
+                        <li class="limain">PRODUCT CATEGORIES</li>
+                        <li>Smartphones</li>
+                        <li>laptops</li>
+                        <li>DSLR Cameras</li>
+                        <li>Televisions</li>
+                        <li>Air Conditioners</li>
+                        <li>Refrigerators</li>
+                        <li>Kitchen Appliances</li>
+                        <li>Accessories</li>
+                        <li>Persnal Care & Grooming</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="limain">SITE INFO</li>
+                        <li>About Reliance Digital</li>
+                        <li>resQ Services </li>
+                        <li>Site Map</li>
+                        <li>Gift Cards </li>
+                        <li>Corporate Enquires</li>
+                        <li>Contact Us</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="limain">RESOURCE CENTRE</li>
+                        <li>Product Reviews</li>
+                        <li>Buying Guides</li>
+                        <li>How Tos</li>
+                        <li>Featured Stories</li>
+                        <li>Events & Happenings</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="limain">POLICIES</li>
+                        <li>Terms of Use</li>
+                        <li>FAQs</li>
+                        <li>Cancellation and Return Policy</li>
+                        <li>Pricing and Payments Policy</li>
+                        <li>Shipping and Delivery Policy</li>
+                        <li>Privacy Policy</li>
+                        <li>E-waste Recycling Policy</li>
+                        <li>EMI and Additional Cashback T&C</li>
+                        <li>RelianceOne Loyalty Program T&C</li>
+                        <li>Caution Notice</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="footermedialinks">
+
+                <div class="footerlinks">
+                    <div>
+                        <h3>FOLLOW US</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="playstore">
+                <div>
+                    <h3>Experience Reliance Digital App on Mobile</h3>
+                </div>
+                <div class="playstoreimg">
+                    <div>
+                        <img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer_disclaimer">
+            <div class="box">
+                <div>
+                    <div class="title-ft">
+                        <div>
+                            <p class="disclaimer"> <span>Disclaimer</span></a></p>
+                            <p><span style="font-size: small;"><span lang="EN-US"
+                                        style="font-family: OpenSans, Arial, Helvetica, sans-serif;">Product prices,
+                                        offers and availability are subject to change from time to time. All prices
+                                        are inclusive of taxes. Product colours &amp; images are only for
+                                        illustration and they may not exactly match with the actual product. Product
+                                        specs are subject to change &amp; may vary from actual product. While every
+                                        care is taken to avoid inaccuracies in content, these are provided as is,
+                                        without warranty of any kind.</span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <div class="box">
+                    <div>
+                        <p><span style="font-size: small;">&nbsp;<span
+                                    style="font-family: OpenSans, Arial, Helvetica, sans-serif;">© 2022 Reliance
+                                    Digital. All Rights Reserved.</span></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
