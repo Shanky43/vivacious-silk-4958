@@ -83,8 +83,17 @@ displayProducts(fetchedData);
       
       });   
     
+// bottom page
+let show_list=document.getElementById("hovers")
+let nav_title=document.getElementById("nav_title")
+function showlist(){
+show_list.style.width="800px";
+show_list.style.display="block";
 
-
+}
+function hidelist(){
+show_list.style.display="none";
+}
 
 
 
