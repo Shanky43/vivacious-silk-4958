@@ -140,15 +140,14 @@
                     </div>
                 </nav>
         </header>
-        <main class="cartpage">
+        <main class="cartpage" id="cartpage">
             <div class="cart_text">
                 <div class="cart_box">
                     <div class="cart-grip">
                         <div class="cart_style">
                             <div class="cart-grip">
                                 <div class="display">
-                                    <span class="my_cart_dis">My Cart &nbsp;</span>
-                                    <span class="no_items">(1 item)</span>
+                                    <span class="my_cart_dis">My Cart &nbsp;<span class="no_items">(1 item)</span></span>
                                     <span class="ship_to">Shipping to: &nbsp;560030
                                         <span class="shipad"> &nbsp;<i class="fa fa-map-marker"></i></span>
                                     </span>
@@ -163,12 +162,11 @@
                                     <div class="inside_div2">
                                         <div class="inside_div3">
                                             <div class="load_image">
-                                                <div class="loaded_image_adjust"
-                                                    style="width: 100%; height: 100%; opacity: 0; margin: 0px auto;">
-                                                    // creating the dummy image
-                                                    <img src="https://www.reliancedigital.in/medias/Usha-QH-3002-Radiators-490784083-i-1?context=bWFzdGVyfGltYWdlc3w3NDA2ODl8aW1hZ2UvanBlZ3xpbWFnZXMvaDhmL2hkOC85NDE2NTAxNzIzMTY2LmpwZ3wzYWE1ZDUxMjc2NjhhZGE0ZDQxZDU0N2RmZWFhNGYwZmY2MDJiNWU3Y2Q3OTY2MWM0YTdmNjE5OGFjMGVhMzQ5"
-                                                        alt="" class="image_center">
-                                                    / /create image tag here in js and give the class as imagecenter
+                                                <div class="loaded_image_adjust1">
+                                                    <!-- // creating the dummy image -->
+                                                    <img src=""
+                                                        alt="" class="image_center" id="image_center">
+                                                    <!-- / /create image tag here in js and give the class as imagecenter -->
                                                 </div>
                                                 <div class="plus_or_minus">
                                                     <button disabled="" class="StyledButton" area-label="Qty Down"
@@ -185,303 +183,230 @@
                                             </div>
                                         </div>
                                         <div class="Grid_StyledGrid-1">
-                                            <div
-                                                class="Grid_StyledGrid-2">
-                                                    <div id="title-"
-                                                        class="TextWeb_Text-1">
-                                                        Usha Quartz QH 3002 Fan-based Heater with Low Power Consumption
-                                                    </div>
-                                                    <div class="TextWeb_Text-2">490784083</div>
-                                                    <div
-                                                        class="TextWeb_Text-3">
-                                                        <span
-                                                            class="TextWeb_Text-4"><i
-                                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                                                class="fa fa-star"></i><i class="fa fa-star"></i><i
-                                                                class="fa fa-star"></i></span><span
-                                                            class="TextWeb_Text-5">(1 Reviews)</span>
-                                                    </div>
-                                                </a>
-                                                <div class="TextWeb_Text-6">
-                                                    <div class="Grid_StyledGrid-3">
-                                                        <div class="Grid_StyledGrid-4">
-                                                            <div
-                                                                class="TextWeb_Text-7">
-                                                                <span
-                                                                    class="TextWeb_Text-8"><span>₹</span><span>1,249.00</span></span><span
-                                                                    class="TextWeb_Text-9"><em><span>₹</span><span>1,890.00</span></em></span><span
-                                                                    class="TextWeb_Text-10">34%(₹641)</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            <div class="Grid_StyledGrid-2">
+                                                <div id="title-" class="TextWeb_Text-1">
+                                                    <span id="TextWeb_Text-1"></span>
                                                 </div>
-                                                <div class="Grid_StyledGrid-5">
-                                                    <div class="Grid_StyledGrid-6">
-                                                        <div class="TextWeb_Text-11">
-                                                            <div
-                                                                class="TextWeb_Text-12">
-                                                                Free Shipping</div>
-                                                            <div
-                                                                class="TextWeb_Text-13">
-                                                                <div
-                                                                    class="TextWeb_Text-14">
-                                                                    <div class="lazy-load-image-loaded-blur"
-                                                                        style="width: 22px; height: 22px; overflow: visible; position: relative; flex-basis: 21px; padding-top: 0px; margin: 0px; display: inline; background: transparent;">
-                                                                        <img src="/build/client/images/standard_delivery_icon.png"
-                                                                            alt="Standard Delivery"
-                                                                            title="Standard Delivery"
-                                                                            data-srcset="/build/client/images/standard_delivery_icon.png"
-                                                                            class="" id=""
-                                                                            style="vertical-align: top; max-width: 21px; max-height: 21px; display: inline; width: 22px; height: 22px;">
-                                                                    </div>Standard Delivery: 18 Dec (Sun)-19 Dec (Mon)
-                                                                </div>
-                                                            </div>
-                                                            <div
-                                                                class="TextWeb__Text-sc-1cyx778-0 gGSmkz Block-sc-u1lygz-0 kNEfQh">
-                                                                *Delivery assurance is subject to our delivery locations
-                                                                staying open as per govt. regulations</div>
+                                                <div class="TextWeb_Text-2"><span id="TextWeb_Text-2"></span></div>
+                                                <div class="TextWeb_Text-3">
+                                                    <span class="TextWeb_Text-4"><i class="fa fa-star"></i><i
+                                                            class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                            class="fa fa-star"></i><i
+                                                            class="fa fa-star"></i></span><span
+                                                        class="TextWeb_Text-5">(1 Reviews)</span>
+                                                </div>
+                                            </div>
+                                            <div class="TextWeb_Text-6">
+                                                <div class="Grid_StyledGrid-3">
+                                                    <div class="Grid_StyledGrid-4">
+                                                        <div class="TextWeb_Text-7">
+                                                            <span
+                                                                class="TextWeb_Text-8"><span>₹</span><span id="TextWeb_Text-8"></span></span><span
+                                                                class="TextWeb_Text-9"><em><span>₹</span><span>1,890.00</span></em></span><span
+                                                                class="TextWeb_Text-10">34%(₹641)</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div
-                                                class=" irrsbe">
-                                                <div class="TextWeb_Text_1">
-                                                    <div class="StyledGrid-sc">
-                                                        <div
-                                                            class="TextWeb_Text_2">
-                                                            <span class="TextWeb_Text_3">
-                                                                <div
-                                                                    class="price">
-                                                                    ₹1,249</div>
-                                                            </span>
-                                                            <div
-                                                                class="mrp_">
-                                                                <span
-                                                                    class="TextWeb-Text1">M.R.P.:&nbsp;</span><em><span
-                                                                        class="TextWeb_Text2">₹</span>1890</em><span
-                                                                    class="TextWeb_Text3">&nbsp;
-                                                                    Inclusive of all taxes</span></div>
-                                                            <div
-                                                                class="DiscountText">
-                                                                <span class="TextWeb_Text4">You
-                                                                    Save:&nbsp;</span><span
-                                                                    class="TextWeb_Text5">34%(₹641)</span><span
-                                                                    class="TextWeb__Text6">34%(₹641)</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="Grid_StyledGrid">
-                                                        <div
-                                                            class="TextWeb_Text7">
-                                                            <span style="">Free Shipping</span></div>
-                                                        <div
-                                                            class="TextWeb_Text8">
-                                                            <div
-                                                                class="TextWeb_Text9">
-                                                                <div class="lazy-load-6"
+                                            <div class="Grid_StyledGrid-5">
+                                                <div class="Grid_StyledGrid-6">
+                                                    <div class="TextWeb_Text-11">
+                                                        <div class="TextWeb_Text-12">
+                                                            Free Shipping</div>
+                                                        <div class="TextWeb_Text-13">
+                                                            <div class="TextWeb_Text-14">
+                                                                <div class="lazy-load-image-loaded-blur"
                                                                     style="width: 22px; height: 22px; overflow: visible; position: relative; flex-basis: 21px; padding-top: 0px; margin: 0px; display: inline; background: transparent;">
-                                                                    <img src=""
-                                                                        alt="Standard Delivery"
-                                                                        title="Standard Delivery"
-                                                                       
-                                                                        class="" id=""
-                                                                        style="vertical-align: top; max-width: 21px; max-height: 21px; display: inline; width: 22px; height: 22px;">
-                                                                </div>
+
+                                                                </div>Standard Delivery: 18 Dec (Sun)-19 Dec (Mon)
                                                             </div>
                                                         </div>
-                                                        <div
-                                                            class="TextWeb_Text10">
+                                                        <div class="TextWeb_Text">
                                                             *Delivery assurance is subject to our delivery locations
                                                             staying open as per govt. regulations</div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class=" irrsbe">
+                                            <div class="TextWeb_Text_1">
+                                                <div class="StyledGrid-sc">
+                                                    <div class="TextWeb_Text_2">
+                                                        <span class="TextWeb_Text_3">
+                                                            <div class="price">
+                                                               <span  id="TextWeb_Text-8s"></span></div>
+                                                        </span>
+                                                        <div class="mrp_">
+                                                            <span class="TextWeb-Text1">M.R.P.:&nbsp;</span><em><span
+                                                                    class="TextWeb_Text2"></span><span id="TextWeb_Text2"></span></em><span
+                                                                class="TextWeb_Text3">&nbsp;
+                                                             </span>
+                                                        </div>
+                                                        <div class="DiscountText">
+                                                            <span class="TextWeb_Text4">You
+                                                                Save:&nbsp;</span><span
+                                                                class="TextWeb_Text5"><span id="TextWeb_Text5"></span></span>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="Grid_StyledGrid">
+                                                    <div class="TextWeb_Text7">
+                                                        <span style="">Free Shipping</span>
+                                                    </div>
+                                                    <div class="TextWeb_Text8">
+                                                        <div class="TextWeb_Text9">
+                                                            <div class="lazy-load-6"
+                                                                style="width: 22px; height: 22px; overflow: visible; position: relative; flex-basis: 21px; padding-top: 0px; margin: 0px; display: inline; background: transparent;">
+                                                                <img src="" alt="Standard Delivery"
+                                                                    title="Standard Delivery" class="" id=""
+                                                                    style="vertical-align: top; max-width: 21px; max-height: 21px; display: inline; width: 22px; height: 22px;">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="TextWeb_Text10">
+                                                        *Delivery assurance is subject to our delivery locations
+                                                        staying open as per govt. regulations</div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-
-
                                 </div>
-
-
                             </div>
-
-
-
                         </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-
-
-
-
-
-        </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <footer class="footer">
-            <div class="footer1">
-                <div class="productcat">
-                    <div>
-                        <ul>
-                            <li class="limain">PRODUCT CATEGORIES</li>
-                            <li>Smartphones</li>
-                            <li>laptops</li>
-                            <li>DSLR Cameras</li>
-                            <li>Televisions</li>
-                            <li>Air Conditioners</li>
-                            <li>Refrigerators</li>
-                            <li>Kitchen Appliances</li>
-                            <li>Accessories</li>
-                            <li>Persnal Care & Grooming</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="limain">SITE INFO</li>
-                            <li>About Reliance Digital</li>
-                            <li>resQ Services </li>
-                            <li>Site Map</li>
-                            <li>Gift Cards </li>
-                            <li>Corporate Enquires</li>
-                            <li>Contact Us</li>
-
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="limain">RESOURCE CENTRE</li>
-                            <li>Product Reviews</li>
-                            <li>Buying Guides</li>
-                            <li>How Tos</li>
-                            <li>Featured Stories</li>
-                            <li>Events & Happenings</li>
-
-                        </ul>
-                    </div>
-                    <div>
-                        <ul>
-                            <li class="limain">POLICIES</li>
-                            <li>Terms of Use</li>
-                            <li>FAQs</li>
-                            <li>Cancellation and Return Policy</li>
-                            <li>Pricing and Payments Policy</li>
-                            <li>Shipping and Delivery Policy</li>
-                            <li>Privacy Policy</li>
-                            <li>E-waste Recycling Policy</li>
-                            <li>EMI and Additional Cashback T&C</li>
-                            <li>RelianceOne Loyalty Program T&C</li>
-                            <li>Caution Notice</li>
-                        </ul>
-                    </div>
-
-
-                </div>
-                <div class="footermedialinks">
-
-                    <div class="footerlinks">
-                        <div>
-                            <h3>FOLLOW US</h3>
-                        </div>
-                        <div>
-                            <ul>
-                                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="playstore">
-                    <div>
-                        <h3>Experience Reliance Digital App on Mobile</h3>
-                    </div>
-                    <div class="playstoreimg">
-                        <div>
-                            <img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt="">
-                        </div>
-                        <div>
-                            <img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt="">
+                        <!-- ///remove section -->
+                        <div class=" CartProductDetail_">
+                            <div class="cXyRgU"><button class="CartActionBox_ActionButton" area-label=""
+                                    id="btn-cab-remove" theme="link" type="button"><span
+                                        class=" cXyRgU">Remove</span></button><button
+                                    class=" CartActionBox_ActionButton" area-label="" id="btn-cab" theme="link"
+                                    type="button"><span class="T0_cXyRgU">Buy</span></button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
     </div>
-    <div class="footer_disclaimer">
-        <div class="box">
-            <div>
-                <div class="title-ft">
+    </main>
+
+    <footer class="footer">
+        <div class="footer1">
+            <div class="productcat">
+                <div>
+                    <ul>
+                        <li class="limain">PRODUCT CATEGORIES</li>
+                        <li>Smartphones</li>
+                        <li>laptops</li>
+                        <li>DSLR Cameras</li>
+                        <li>Televisions</li>
+                        <li>Air Conditioners</li>
+                        <li>Refrigerators</li>
+                        <li>Kitchen Appliances</li>
+                        <li>Accessories</li>
+                        <li>Persnal Care & Grooming</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="limain">SITE INFO</li>
+                        <li>About Shop Digital</li>
+                        <li>resQ Services </li>
+                        <li>Site Map</li>
+                        <li>Gift Cards </li>
+                        <li>Corporate Enquires</li>
+                        <li>Contact Us</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="limain">RESOURCE CENTRE</li>
+                        <li>Product Reviews</li>
+                        <li>Buying Guides</li>
+                        <li>How Tos</li>
+                        <li>Featured Stories</li>
+                        <li>Events & Happenings</li>
+
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="limain">POLICIES</li>
+                        <li>Terms of Use</li>
+                        <li>FAQs</li>
+                        <li>Cancellation and Return Policy</li>
+                        <li>Pricing and Payments Policy</li>
+                        <li>Shipping and Delivery Policy</li>
+                        <li>Privacy Policy</li>
+                        <li>E-waste Recycling Policy</li>
+                        <li>EMI and Additional Cashback T&C</li>
+                        <li>Shop Loyalty Program T&C</li>
+                        <li>Caution Notice</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="footermedialinks">
+
+                <div class="footerlinks">
                     <div>
-                        <p class="disclaimer"> <span>Disclaimer</span></a></p>
-                        <p><span style="font-size: small;"><span lang="EN-US"
-                                    style="font-family: OpenSans, Arial, Helvetica, sans-serif;">Product prices,
-                                    offers and availability are subject to change from time to time. All prices
-                                    are inclusive of taxes. Product colours &amp; images are only for
-                                    illustration and they may not exactly match with the actual product. Product
-                                    specs are subject to change &amp; may vary from actual product. While every
-                                    care is taken to avoid inaccuracies in content, these are provided as is,
-                                    without warranty of any kind.</span></span></p>
+                        <h3>FOLLOW US</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <div class="playstore">
+                <div>
+                    <h3>Experience Shop Digital App on Mobile</h3>
+                </div>
+                <div class="playstoreimg">
+                    <div>
+                        <img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer_copyright">
+        </div>
+        <div class="footer_disclaimer">
             <div class="box">
                 <div>
-                    <p><span style="font-size: small;">&nbsp;<span
-                                style="font-family: OpenSans, Arial, Helvetica, sans-serif;">© 2022 Reliance
-                                Digital. All Rights Reserved.</span></span></p>
+                    <div class="title-ft">
+                        <div>
+                            <p class="disclaimer"> <span>Disclaimer</span></a></p>
+                            <p><span style="font-size: small;"><span lang="EN-US"
+                                        style="font-family: OpenSans, Arial, Helvetica, sans-serif;">Product prices,
+                                        offers and availability are subject to change from time to time. All prices
+                                        are inclusive of taxes. Product colours &amp; images are only for
+                                        illustration and they may not exactly match with the actual product. Product
+                                        specs are subject to change &amp; may vary from actual product. While every
+                                        care is taken to avoid inaccuracies in content, these are provided as is,
+                                        without warranty of any kind.</span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copyright">
+                <div class="box">
+                    <div>
+                        <p><span style="font-size: small;">&nbsp;<span
+                                    style="font-family: OpenSans, Arial, Helvetica, sans-serif;">© 2022 Shop
+                                    Digital. All Rights Reserved.</span></span></p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </footer>
     </div>
 

@@ -10,6 +10,11 @@ html {
     font-family: Roboto, "system-ui", sans-serif;
     box-sizing: border-box;
 }
+.loginpage{
+    color: white;
+    font-family: Roboto, "system-ui", sans-serif;
+    text-decoration: none;
+}
 
 .header_info {
     margin: 0%;
@@ -625,10 +630,11 @@ ul {
 }
 
 .mss-mb_32 {
-
     padding: 32px 2% 0;
 }
-
+.ptag{
+    text-decoration: line-through;
+}
 .mss-mb_32 .mss_title {
 
     color: #333;
@@ -643,18 +649,13 @@ ul {
 
 .swiper1 {
     width: 100%;
-
     display: flex;
     justify-content: space-between;
     padding: 50px;
-
-
 }
 
 .swiper-slide1 img {
     width: 100%;
-    /* height: fit-content; */
-
 }
 
 
@@ -670,7 +671,6 @@ ul {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    /* text-overflow: hidden; */
     padding: 0px;
 
 }
@@ -697,7 +697,6 @@ ul {
 .swiper-slide1 div img {
     width: 200px;
     height: 30vh;
-
 }
 
 .swiper-slide1 div img:hover {
@@ -1136,11 +1135,3 @@ ul {
     border-top: 1px solid hsla(0, 0%, 100%, .1);
     padding-bottom: 30px;
 }
-
-
-/* #hovers{
-    display: none;
-    position: fixed;
-    top: 100px;
-    left: 8%;
-} */

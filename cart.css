@@ -329,9 +329,21 @@ body #root {
     margin-left: 10px;
 }
 
-
+/* //----------------- */
 .cartpage {
     padding-top: 0;
+}
+
+.img_price {
+    width: 95%;
+    margin: auto;
+}
+
+.cart-grip {
+    width: 80%;
+    margin: auto;
+
+
 }
 
 .cart_text {
@@ -339,10 +351,10 @@ body #root {
     overflow: hidden;
 }
 
-.cart_box {
+/* .cart_box {
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 .cart_grid::after,
 .cart_grid::before {
@@ -354,48 +366,60 @@ body #root {
     clear: both;
 }
 
-.display {
-    width: 80%;
-    display: flex;
+.cart_style {
+    width: 100%;
     margin: auto;
+}
+
+.display {
+    width: 96%;
+    display: flex;
     box-shadow: rgb(0 0 0 / 6%) 0px 2px 2px;
     border: 1px solid rgb(224, 224, 225);
     background-color: rgb(255, 255, 255);
     justify-content: space-between;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 16px;
-    width: 80%;
     margin-bottom: 8px;
 }
 
-.my_cart_dis {}
+.loaded_image_adjust1 img {
+    width: 150px;
+    height: 150px;
+}
+
 
 .added_cart {
-    margin-left: -16px;
-    margin-right: -16px;
+    width: 100%;
+    display: flex;
+    margin: auto;
 }
 
-.img_price {
-    position: relative;
-    min-height: 1px;
-    padding-left: 16px;
-    padding-right: 16px;
-}
+
 
 .load_.image .image_Center {
     left: 50%;
     margin: auto;
     position: absolute;
     top: 50%;
-    transform: translate(-50%, -50%);
+
 }
 
-.loaded_image_adjust {
+.loaded_image_adjust1 {
     bottom: 0;
     left: 0;
-    position: absolute;
+    position: relative;
     right: 0;
-    top: 0;
+}
+
+.inside_div2 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 6%) 0px 2px 2px;
+    border: 1px solid rgb(224, 224, 225);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 .plus_or_minur {
@@ -424,6 +448,10 @@ body #root {
     padding: 0px 8px;
 }
 
+.QuantityBox_ {
+    width: 10px;
+}
+
 .qty:read-only {
     cursor: not-allowed;
 }
@@ -434,8 +462,11 @@ body #root {
     text-rendering: auto;
     transition: .5s;
 }
-.TextWeb_Text-1{
+
+.TextWeb_Text-1 {
     overflow: hidden;
+    width: 350px;
+    margin: auto;
     text-overflow: ellipsis;
     color: rgb(0, 51, 128);
     font-size: 14px;
@@ -443,66 +474,234 @@ body #root {
     line-height: 1.5;
 }
 
+.TextWeb_Text-2 {
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.TextWeb_Text-3 {
+    margin-top: 4px;
+}
+
+.TextWeb_Text-4 {
+    color: rgb(255, 164, 28);
+    font-size: 14px;
+}
+
+.TextWeb_Text-5 {
+    color: rgb(0, 51, 128);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.TextWeb_Text-6 {
+    display: none;
+}
 
 
+.TextWeb_Text-7 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 8px 0px 0px;
+}
+
+.TextWeb_Text-8 {
+    color: rgb(0, 51, 128);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.TextWeb_Text-9 {
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.TextWeb_Text-10 {
+    color: rgb(67, 160, 71);
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.Grid_StyledGrid-6 {
+    display: none;
+    position: relative;
+    min-height: 1px;
+    padding: 0px;
+    float: left;
+    width: 100%;
+
+}
+
+.TextWeb_Text-12 {
+    color: rgb(10, 120, 84);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 4px;
+}
+
+.TextWeb_Text-13 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.TextWeb_Text-14 {
+    color: rgb(0, 51, 128);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.TextWeb__Text {
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.TextWeb_Text_1 {
+    text-align: right;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img_price {
+    width: 80%;
+
+}
+
+.price {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.mrp_,
+.DiscountText {
+    margin-top: 2px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.TextWeb_Text3 {
+    font-size: 12px;
+}
+
+.TextWeb_Text7 {
+    color: rgb(21, 150, 124);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.TextWeb_Text8 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 4px;
+}
+
+.TextWeb_Text9 {
+    color: rgb(0, 51, 128);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.TextWeb_Text10 {
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
+
+}
+
+.CartProductDetail_ {
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+}
+
+.CartActionBox_ActionButton {
+    border-top: 1px solid rgb(224, 224, 225);
+    border-bottom: 1px solid rgb(224, 224, 225);
+    font-size: 13px;
+    font-weight: 500;
+    width: 50%;
+    height: 40px;
+}
+
+.CartActionBox_ActionButton {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: inherit;
+    font-size: 16px;
+    float: none;
+    border: 0px;
+    border-radius: 0px;
+    background: transparent;
+    padding: 0px;
+    font-weight: 600;
+    line-height: initial;
+    text-transform: none;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(23, 116, 239);
+    border-right: 1px solid rgb(224, 224, 225);
+    border-top: 1px solid rgb(224, 224, 225);
+    border-left: 1px solid rgb(224, 224, 225);
+    border-bottom: 1px solid rgb(224, 224, 225);
+
+}
+
+.CartActionBox_ActionButton:first-child {
+    border-right: 1px solid rgb(224, 224, 225);
+    border-top: 1px solid rgb(224, 224, 225);
+    border-left: 1px solid rgb(224, 224, 225);
+    border-bottom: 1px solid rgb(224, 224, 225);
+}
 
 
+.oopsstyling {
+    width: 015%;
+    padding: 100px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.continuebutton {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 12px;
+    outline: none;
+    cursor: pointer;
+    font-family: inherit;
+    line-height: 40px;
+    letter-spacing: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 3px;
+    float: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(228, 37, 41);
+    border: 1px solid rgb(228, 37, 41);
+    margin-left: 10px;
+    margin-right: auto;
+}
 
 
 .footer1 {
