@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login or Register</title>
+    <link rel="Icon" href="/project_images/Slogo-modified.png">
+    <link rel="stylesheet" href="./loginpage.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <div id="root">
+        <header class="sticky">
+            <ul class="header_info">
+                <li class="header_text"><a href=""> <i class="fa fa-map-marker" aria-hidden="true"></i>Find a store</a>
+                </li>
+                <li class="header_text"><a href="">Buying guides</a></li>
+                <li class="header_text_1"><a href=""> Contact us</a> </li>
+            </ul>
+
+            <div class="header" id="header">
+                <span id="downloadApp" style="visibility: visible;"></span>
+                <div class="headerchild">
+                    <a href="" class="" logolinkline>
+                        <div class="logo_image">
+                            <a href="./index.html"> <img src="/project_images/Mlogo.png" class=""
+                                    id="shop_digital_image"></a>
+                        </div>
+                    </a>
+                    <div class="searchpanel">
+                        <form action="" class="formbar">
+                            <div class="search_box">
+                                <input type="text" name="searchbar" id="search_bar"
+                                    placeholder="Find your favorite products">
+                                <button type="button" class="searchbutton" value="">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="header_info_list">
+                        <li class="header_info_list_item">
+                            <div class="header_info_list_item_1">
+                                <div class="header_info_list_item_2">
+                                    <div class="search_pin_code">
+                                        Select your PIN Code
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header_info_list_item_cart">
+                            <a href="./cart.html" target="_blank" class="forcart">
+                                <i class="fa fa-shopping-cart header__maininfo__list__item__icon"
+                                    aria-hidden="true"></i>Cart
+                            </a>
+                        </li>
+                        <li class="header_info_list_item_login">
+                            <span class="header_info_list_item_login_inside_1">
+                                <i class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
+                                Login
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- nav bar starts from here   -->
+                <nav class="nav_main">
+                    <div class="categorylist">
+                        <ul class="nav_no_print">
+                            <li class="nav_container" onmouseleave="hidelist()">
+                                <div class="nav_title" id="nav_title" onmouseenter="showlist()">Mobiles &amp; Tablets
+                                    <span class="fa fa-angle-down ml__4"></span> </div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Televisions <span class="fa fa-angle-down ml__4"></span></div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Audio<span class="fa fa-angle-down ml__4"></span> </div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Home Appliances<span class="fa fa-angle-down ml__4"></span></div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Computers <span class="fa fa-angle-down ml__4"></span></div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Cameras<span class="fa fa-angle-down ml__4"></span> </div>
+                            </li>
+                            <li class="nav_container">
+                                <div class="nav_title">Kitchen Appliances<span class="fa fa-angle-down ml__4"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="flex" id="hovers" onmouseleave="hidelist()" onmouseenter="showlist()">
+                        <div class="flex-1">
+                            <ul>
+                                <li class="nav_description_items"> Smartphones </li>
+                            </ul>
+                            <ul>
+                                <li class="nav_description_items">Wearable Technology</li>
+                                <li class="nav_description_subitems">Top Selling Smartwatches</li>
+                                <li class="nav_description_subitems"> Apple Price Drop </li>
+                            </ul>
+                            <ul>
+                                <li class="nav_description_items">
+                                    <span class="cursorDefault">Accessories</span>
+                                </li>
+                                <li class="nav_description_subitems">Tablet Accessories</li>
+                                <li class="nav_description_subitems"> Mobile Accessories</li>
+                                <li class="nav_description_subitems"> Mobile Grips & Stands </li>
+                                <li class="nav_description_subitems">Car Mobile Holders</li>
+                                <li class="nav_description_subitems">Memory Cards</li>
+                                <li class="nav_description_subitems">Cables & Cords</li>
+                                <li class="nav_description_subitems">Chargers & Adapters </li>
+                            </ul>
+                        </div>
+                        <div class="flex-2">
+                            <ul>
+                                <li class="nav_description_items">Headphones & Headsets</li>
+                            </ul>
+                            <ul>
+                                <li class="nav_description_items">Headphones & Headsets</li>
+                            </ul>
+                            <ul>
+                                <li class="nav_description_items">Tablets & eReaders</li>
+                                <li class="nav_description_items">Every Day use Tablets below 15000</li>
+                                <li class="nav_description_items">Premium Tablets, Above 15001</li>
+                            </ul>
+                            <ul>
+                                <li class="nav_description_items"> Power Banks</li>
+                            </ul>
+                            <ul>
+                                <li class="nav_description_items">eSlates</li>
+                            </ul>
+                        </div>
+                        <div class="flex-3">
+                            <ul>
+                                <li class="nav_description_items">AI Learning Robots</li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+        <!-- header section ends -->
+<main id="main">
+        <div class="maindiv">
+            <div>
+
+            </div>
+            <div class="submain">
+                <div class="logheading">
+                    <p class="text_t">Login / Register</p>
+                </div>
+                <div class="inprt">
+                    <div class="inputd">
+                        <p><span id="mes"></span></p>
+                        <input type="number" name="mobilenumber" id="mobno" minlength="10" maxlength="10"
+                            placeholder="Enter Mobile Number">
+
+                    </div>
+                    <div class="btn"><button class="proceed" id="proceed"> PROCEED</button></div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+<a href="./logining.htm"></a>
+
+
+
+        <!-- footer section starts -->
+        <footer class="footer">
+            <div class="footer1">
+                <div class="productcat">
+                    <div>
+                        <ul>
+                            <li class="limain">PRODUCT CATEGORIES</li>
+                            <li>Smartphones</li>
+                            <li>laptops</li>
+                            <li>DSLR Cameras</li>
+                            <li>Televisions</li>
+                            <li>Air Conditioners</li>
+                            <li>Refrigerators</li>
+                            <li>Kitchen Appliances</li>
+                            <li>Accessories</li>
+                            <li>Persnal Care & Grooming</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="limain">SITE INFO</li>
+                            <li>About SHOP Digital</li>
+                            <li>resQ Services </li>
+                            <li>Site Map</li>
+                            <li>Gift Cards </li>
+                            <li>Corporate Enquires</li>
+                            <li>Contact Us</li>
+    
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="limain">RESOURCE CENTRE</li>
+                            <li>Product Reviews</li>
+                            <li>Buying Guides</li>
+                            <li>How Tos</li>
+                            <li>Featured Stories</li>
+                            <li>Events & Happenings</li>
+    
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li class="limain">POLICIES</li>
+                            <li>Terms of Use</li>
+                            <li>FAQs</li>
+                            <li>Cancellation and Return Policy</li>
+                            <li>Pricing and Payments Policy</li>
+                            <li>Shipping and Delivery Policy</li>
+                            <li>Privacy Policy</li>
+                            <li>E-waste Recycling Policy</li>
+                            <li>EMI and Additional Cashback T&C</li>
+                            <li>Shop Loyalty Program T&C</li>
+                            <li>Caution Notice</li>
+                        </ul>
+                    </div>
+    
+    
+                </div>
+                <div class="footermedialinks">
+    
+                    <div class="footerlinks">
+                        <div>
+                            <h3>FOLLOW US</h3>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
+                                <li><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
+                            </ul>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="playstore">
+                    <div>
+                        <h3>Experience Shop Digital App on Mobile</h3>
+                    </div>
+                    <div class="playstoreimg">
+                        <div>
+                            <img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt="">
+                        </div>
+                        <div>
+                            <img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="footer_disclaimer">
+                <div class="box">
+                    <div>
+                        <div class="title-ft">
+                            <div>
+                                <p class="disclaimer"> <span>Disclaimer</span></a></p>
+                                <p><span style="font-size: small;"><span lang="EN-US"
+                                            style="font-family: OpenSans, Arial, Helvetica, sans-serif;">Product prices,
+                                            offers and availability are subject to change from time to time. All prices
+                                            are inclusive of taxes. Product colours &amp; images are only for
+                                            illustration and they may not exactly match with the actual product. Product
+                                            specs are subject to change &amp; may vary from actual product. While every
+                                            care is taken to avoid inaccuracies in content, these are provided as is,
+                                            without warranty of any kind.</span></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_copyright">
+                    <div class="box">
+                        <div>
+                            <p><span style="font-size: small;">&nbsp;<span
+                                        style="font-family: OpenSans, Arial, Helvetica, sans-serif;">© 2022 Shop
+                                        Digital. All Rights Reserved.</span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./loginpage.js">
+
+</script>
+
+</html>
