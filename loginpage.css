@@ -171,7 +171,11 @@ html {
     font-weight: 600;
     cursor: pointer;
 }
-
+.ahref{
+    font-family:Roboto, "system-ui", sans-serif ;
+    color: white;
+    text-decoration: none;
+}
 .header_info_list_item {
     border-left: 1px solid #dadada;
     font-size: 14px;

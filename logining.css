@@ -154,7 +154,11 @@ html {
     padding-left: 20px;
     width: 100%;
 }
-
+.ahref{
+    font-family:Roboto, "system-ui", sans-serif ;
+    color: white;
+    text-decoration: none;
+}
 .header_info_list {
     display: flex;
     box-align: center;
