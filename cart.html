@@ -73,9 +73,9 @@
                 <nav class="nav_main">
                     <div class="categorylist">
                         <ul class="nav_no_print">
-                            <li class="nav_container" onmouseleave="hidelist()">
-                                <div class="nav_title" id="nav_title" onmouseleave="hidelist()"
-                                    onmouseenter="showlist()">Mobiles &amp; Tablets
+                            <li class="nav_container">
+                                <div class="nav_title" id="nav_title"
+                               >Mobiles &amp; Tablets
                                     <span class="fa fa-angle-down ml__4"></span>
                                 </div>
                             </li>
@@ -110,7 +110,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="list" id="hovers" onmouseenter="showlist()" onmouseleave="hidelist()">
+                    <!-- <div class="list" id="hovers" onmouseenter="showlist()" onmouseleave="hidelist()">
                         <div>
                             <ul>
                                 <li class="nav_description_items" onmouseenter="showlist()">
@@ -137,7 +137,7 @@
                         </div>
 
 
-                    </div>
+                    </div> -->
                 </nav>
         </header>
         <main class="cartpage" id="cartpage">
@@ -147,8 +147,8 @@
                         <div class="cart_style">
                             <div class="cart-grip">
                                 <div class="display">
-                                    <span class="my_cart_dis">My Cart &nbsp;<span class="no_items">(1 item)</span></span>
-                                    <span class="ship_to">Shipping to: &nbsp;560030
+                                    <span class="my_cart_dis">My Cart &nbsp;<span class="no_items"><span id="cartItemsno"></span></span></span>
+                                    <span class="ship_to">Shipping to: &nbsp;<span id="pincode"></span>
                                         <span class="shipad"> &nbsp;<i class="fa fa-map-marker"></i></span>
                                     </span>
                                 </div>
@@ -169,7 +169,7 @@
                                                     <!-- / /create image tag here in js and give the class as imagecenter -->
                                                 </div>
                                                 <div class="plus_or_minus">
-                                                    <button disabled="" class="StyledButton" area-label="Qty Down"
+                                                    <button  class="StyledButton" area-label="Qty Down"
                                                         id="btn-down-qty" theme="default" type="button"><span
                                                             class="TextWeb_"><i
                                                                 class="TextWeb_ fa fa-minus"></i></span></button>
@@ -201,9 +201,9 @@
                                                     <div class="Grid_StyledGrid-4">
                                                         <div class="TextWeb_Text-7">
                                                             <span
-                                                                class="TextWeb_Text-8"><span>₹</span><span id="TextWeb_Text-8"></span></span><span
-                                                                class="TextWeb_Text-9"><em><span>₹</span><span>1,890.00</span></em></span><span
-                                                                class="TextWeb_Text-10">34%(₹641)</span>
+                                                                class="TextWeb_Text-8"><span></span><span id="TextWeb_Text-8"></span></span><span
+                                                                class="TextWeb_Text-9"><em><span>₹</span><span></span></em></span><span
+                                                                class="TextWeb_Text-10"></span>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -258,7 +258,7 @@
                                                         <div class="TextWeb_Text9">
                                                             <div class="lazy-load-6"
                                                                 style="width: 22px; height: 22px; overflow: visible; position: relative; flex-basis: 21px; padding-top: 0px; margin: 0px; display: inline; background: transparent;">
-                                                                <img src="" alt="Standard Delivery"
+                                                                <img src="https://www.reliancedigital.in/build/client/images/standard_delivery_icon.png" alt="Standard Delivery"
                                                                     title="Standard Delivery" class="" id=""
                                                                     style="vertical-align: top; max-width: 21px; max-height: 21px; display: inline; width: 22px; height: 22px;">
                                                             </div>
@@ -356,9 +356,9 @@
                     </div>
                     <div>
                         <ul>
-                            <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                            <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-                            <li><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
+                            <li class="socialimage"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt=""></i></li>
+                            <li  class="socialimage"><img src="https://toppng.com/uploads/preview/youtube-logo-png-116186698684etjs0nnhw.png" alt=""></li>
+                            <li  class="socialimage"><img src="https://i.pinimg.com/736x/ee/af/9c/eeaf9ce3ab22ecb3904daea1b2eab04a.jpg" alt=""></li>
                         </ul>
                     </div>
 

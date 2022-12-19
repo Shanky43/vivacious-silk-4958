@@ -14,12 +14,18 @@ proceedbtn.addEventListener("click",()=>{
       
        message.innerText="***Mandatory fields cannot be empty***"
        message.style.color="red"
+       setTimeout(function(){
+        window.location="./loginpage.html"
+       },2000)
        
 
     }
     if(mobileno.value.length>0&&mobileno.value.length<10){
         message.innerText="***Please Enter the valid number***"
         message.style.color="red"
+        setTimeout(function(){
+            window.location="./loginpage.html"
+           },2000)
     }
     // console.log(mobileno.value)
     console.log(mobileno.value.length)
@@ -33,6 +39,10 @@ proceedbtn.addEventListener("click",()=>{
 })
 
 
-   
+   window.addEventListener("load",()=>{
+    localStorage.clear();
+    mobileno.value=null;
+
+   })
 
 

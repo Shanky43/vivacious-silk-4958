@@ -592,3 +592,96 @@ input[type="number"]::-webkit-outer-spin-button {
     border-top: 1px solid hsla(0, 0%, 100%, .1);
     padding-bottom: 30px;
 }
+
+/* .popmain{
+    display: flex;
+    margin: auto;
+}
+.notifications {
+    
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    background: white;
+}
+.notifications :where(.toast, .column){
+    display: flex;
+    align-items: center;
+}
+
+.toast::before{
+    position: absolute;
+content :"";
+height: 3px;
+width: 50%;
+bottom: 0px;
+left: 0px;
+background:  red;
+}
+.toast::before{
+    background: green;
+}
+.toast .column i{
+    color: green;
+}
+.notifications .toast{
+    width: 400px;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    padding: 16px 17px;
+    margin-bottom: 10px;
+    background:white;
+    justify-content: space-between;
+    animation: show_toast 0.3s ease forwards;
+}
+@keyframes show_toast {
+0%{
+    transform: translateX(100%);
+}
+40%{
+    transform: translateX(-5%);
+}
+80%{
+    transform: translateX(0%);
+}
+100%{
+    transform: translateX(-10px);
+}
+}
+.toast::before{
+    position: absolute;
+content :"";
+height: 3px;
+width: 100%;
+bottom: 0px;
+left: 0px;
+animation: progress 1s linear forwards;
+}
+@keyframes progress {
+    100%{
+        width: 0%;
+    }
+}
+.toast .column{
+    font-size: 1.75rem;
+}
+.toast .column span{
+    font-size: 1.07rem;
+    margin-left :12px;
+}
+
+
+.toast i:last-child() {
+color: #aeb0b7;
+cursor: pointer;
+}
+
+.toast i:last-child:hover{
+    color: gray;
+} */
+.socialimage img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

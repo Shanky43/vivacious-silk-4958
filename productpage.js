@@ -15,7 +15,7 @@ let arr = [
         prodimage:"https://www.reliancedigital.in/medias/Usha-QH-3002-Radiators-490784083-i-1?context=bWFzdGVyfGltYWdlc3w3NDA2ODl8aW1hZ2UvanBlZ3xpbWFnZXMvaDhmL2hkOC85NDE2NTAxNzIzMTY2LmpwZ3wzYWE1ZDUxMjc2NjhhZGE0ZDQxZDU0N2RmZWFhNGYwZmY2MDJiNWU3Y2Q3OTY2MWM0YTdmNjE5OGFjMGVhMzQ5",
         prodname: "Usha Quartz QH 3002 Fan-based Heater with Low Power Consumption",
         prodid: "490784083",
-        prodprice: "₹1,249.00",
+        prodprice: "1249.00",
         prodmrp: "₹1890  Inclusive of all taxes",
         yousave: "34%(₹641)",
     }
@@ -37,13 +37,13 @@ function pin_code(pinvalue){
     setTimeout(function(){
      pincode_.innerText="COD available";
      pincheck(pinvalue)
-    },2000)
+    },100)
     }else
     if(pinvalue>!560001&&pinvalue>!562150&&pinvalue.length==6){
      setTimeout(function(){
          pincode_.innerText="COD not available";
          pincheck(pinvalue)
-        },2000)
+        },100)
     }
     if(pinvalue==null||pinvalue==undefined&&pinvalue.length!=6||pinvalue.length==0){
         pincode_.innerText=" ";
