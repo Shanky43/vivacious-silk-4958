@@ -856,3 +856,19 @@ body #root {
     height: 20px;
     margin-right: 5px;
     }
+
+
+
+
+    #orderstatus{
+        position: fixed;
+        display: none;
+        bottom: 1%;
+        left: 40%;
+        border: 0px solid black;
+        border-radius: 5px;
+        background: rgb(45 175 41);
+        color: white;
+        padding: 0 12px;
+        font-family: Roboto, "system-ui", sans-serif;
+    }

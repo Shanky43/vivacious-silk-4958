@@ -16,6 +16,8 @@ function generateotp(ans){
 }
 }
 generateotp(ans)
+let popmessage= document.getElementById("loginstatus")
+let isregister= false;
 
 resendOTP.addEventListener("click",()=>{
     generateotp(ans)
@@ -25,8 +27,15 @@ resendOTP.addEventListener("click",()=>{
         console.log(otpnumber.value)
         console.log("login button is working")
         if (otpnumber.value == x) {
-        window.location="./index.html"
-
+        isregister = true;
+        localStorage.setItem("isregister",isregister);    
+        popmessage.style.display="block";
+        setTimeout(()=>{
+            popmessage.style.display="none";
+        },1000)
+        setTimeout(()=>{
+            window.location.href = "./productpage.html"
+        },1000);
         }else{
             alert("wrong otp")
         }

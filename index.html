@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop Digital</title>
-    <link rel="Icon" href="/project_images/Slogo-modified.png">
+    <link rel="Icon" href="./Slogo-modified.png">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
@@ -28,7 +28,7 @@
                 <div class="headerchild">
                     <a href="" class="" logolinkline>
                         <div class="logo_image">
-                           <a href="./index.html"> <img src="./Mlogo.png" class="" id="shop_digital_image"></a>
+                            <a href="./index.html"> <img src="./Mlogo.png" class="" id="shop_digital_image"></a>
                         </div>
                     </a>
                     <div class="searchpanel">
@@ -59,19 +59,21 @@
                             </a>
                         </li>
                         <li class="header_info_list_item_login">
-                          <span class="header_info_list_item_login_inside_1">
-                            <a href="./loginpage.html" class="loginpage" target="_blank">  <i class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
-                                Login</a>
+                            <span class="header_info_list_item_login_inside_1">
+                                <a href="./loginpage.html" class="loginpage" target="_blank"> <i
+                                        class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
+                                    Login</a>
                             </span>
                         </li>
                     </ul>
                 </div>
                 <!-- nav bar starts from here   -->
                 <nav class="nav_main">
-                       <div class="categorylist" >
-                        <ul class="nav_no_print">
-                            <li class="nav_container"  >
-                                <div class="nav_title"  id="nav_title" >Mobiles &amp; Tablets <span class="fa fa-angle-down ml__4"></span> </div>
+                    <div class="categorylist">
+                        <ul class="nav_no_print" >
+                            <li class="nav_container" >
+                                <div class="nav_title" id="nav_title"id="list_hover" onmouseenter="showlist()" onmouseleave="hidelist()">Mobiles &amp; Tablets <span
+                                        class="fa fa-angle-down ml__4"></span> </div>
                             </li>
                             <li class="nav_container">
                                 <div class="nav_title">Televisions <span class="fa fa-angle-down ml__4"></span></div>
@@ -89,12 +91,14 @@
                                 <div class="nav_title">Cameras<span class="fa fa-angle-down ml__4"></span> </div>
                             </li>
                             <li class="nav_container">
-                                <div class="nav_title">Kitchen Appliances<span class="fa fa-angle-down ml__4"></span></div>
+                                <div class="nav_title">Kitchen Appliances<span class="fa fa-angle-down ml__4"></span>
+                                </div>
                             </li>
                         </ul>
-                       </div>
-                       <div class="flex" id="hovers" >
-                            <div class="flex-1">
+                    </div>
+                    <div class="flex"  id="hovers" onmouseenter="showlist()" onmouseleave="hidelist()">
+                        <div class="flex-1" id="hovers" onmouseenter="showlist()" onmouseleave="hidelist()">
+                            <div>
                                 <ul>
                                     <li class="nav_description_items"> Smartphones </li>
                                 </ul>
@@ -116,33 +120,35 @@
                                     <li class="nav_description_subitems">Chargers & Adapters </li>
                                 </ul>
                             </div>
-                            <div class="flex-2">
-                                <ul>
-                                    <li class="nav_description_items">Headphones & Headsets</li>
-                                </ul>
-                                <ul>
-                                    <li class="nav_description_items">Headphones & Headsets</li>
-                                </ul>
-                                <ul>
-                                    <li class="nav_description_items">Tablets & eReaders</li>
-                                    <li class="nav_description_items">Every Day use Tablets below 15000</li>
-                                    <li class="nav_description_items">Premium Tablets, Above 15001</li>
-                                </ul>
-                                <ul>
-                                    <li class="nav_description_items"> Power Banks</li>
-                                  </ul>
-                                  <ul>
-                                    <li class="nav_description_items">eSlates</li>
-                                  </ul>
-                            </div>
-                            <div class="flex-3">
-                                <ul>
-                                  <li class="nav_description_items">AI Learning Robots</li>
-                                </ul>
-                                </div>
+                            <div>
+                                <div class="flex-2">
+                                    <ul>
+                                        <li class="nav_description_items">Headphones & Headsets</li>
+                                    </ul>
 
-                       </div>
-                                        
+                                    <ul>
+                                        <li class="nav_description_items">Tablets & eReaders</li>
+                                        <li class="nav_description_items">Every Day use Tablets below 15000</li>
+                                        <li class="nav_description_items">Premium Tablets, Above 15001</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="nav_description_items"> Power Banks</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="nav_description_items">eSlates</li>
+                                    </ul>
+                                </div>
+                               <div> <div class="flex-3">
+                                <ul>
+                                    <li class="nav_description_items">AI Learning Robots</li>
+                                </ul>
+                            </div></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
                 </nav>
             </div>
         </header>
@@ -218,7 +224,7 @@
             </div>
             <div class="home_4banner">
                 <div class="move_left">
-                    <div class="lazy-load"style="width: 25%;">
+                    <div class="lazy-load" style="width: 25%;">
                         <div class="autoAdjust">
                         </div><img
                             src="https://www.reliancedigital.in/medias/43-inch-UHD-TV-Small-Banner-05-12-2022.jpg?context=bWFzdGVyfGltYWdlc3w2MTc5NXxpbWFnZS9qcGVnfGltYWdlcy9oZDcvaGM2Lzk5MjgxNjcyNjAxOTAuanBnfDg4MjdjN2IwZWViMTNlNmM2ODdiOWZjNzU2M2RkZmVlZTMxMmM4ODRlZWQ3MWNhMWIwYWI3NmNhMDcxNjkxY2M"
@@ -280,14 +286,14 @@
                                 <div class="swiper-slide1">
                                     <div>
                                         <a href="./productpage.html" target="_blank" style="text-decoration: none;">
-                                        <img src="https://www.reliancedigital.in/medias/Usha-QH-3002-Radiators-490784083-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDg4Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaDdhL2g4Ni85NDE2NTExNTUzNTY2LmpwZ3xmMTQyY2Y0ZDZkZWZmZDRmM2ZjNTgyMGMwNGQ4ODI0MzBiOWIxOTc4NTZhOTRhMDQ0ZmEwNTYzNGNjMzBmN2Mx"
-                                            alt="Smartwatch-Carnival-Carousel-Banner-D">
-                                        <h4>Usha Quartz QH 3002 Fan-based Heater with Low Power Consumption</h4>
-                                        <p> Deal price : <b>₹1,249.00</b></p>
-                                        <p >M.R.P : <s class="ptag"><em>₹1,890.00</em></s></p>
-                                        <p>You Save : 34%(₹641)</p>
-                                        <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
-                                    </a>
+                                            <img src="https://www.reliancedigital.in/medias/Usha-QH-3002-Radiators-490784083-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDg4Njh8aW1hZ2UvanBlZ3xpbWFnZXMvaDdhL2g4Ni85NDE2NTExNTUzNTY2LmpwZ3xmMTQyY2Y0ZDZkZWZmZDRmM2ZjNTgyMGMwNGQ4ODI0MzBiOWIxOTc4NTZhOTRhMDQ0ZmEwNTYzNGNjMzBmN2Mx"
+                                                alt="Smartwatch-Carnival-Carousel-Banner-D">
+                                            <h4>Usha Quartz QH 3002 Fan-based Heater with Low Power Consumption</h4>
+                                            <p> Deal price : <b>₹1,249.00</b></p>
+                                            <p>M.R.P : <s class="ptag"><em>₹1,890.00</em></s></p>
+                                            <p>You Save : 34%(₹641)</p>
+                                            <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
+                                        </a>
                                     </div>
                                     <div>
                                         <img src="https://www.reliancedigital.in/medias/Candes-Infra3-Radiators-493620550-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MjU1MnxpbWFnZS9qcGVnfGltYWdlcy9oZmUvaDg4Lzk4OTIxODQ4NTA0NjIuanBnfDY3MWJlM2Y2YTRkNjMwYjcxMzBiYzA5N2ZlMzEyNTE2ZjBjM2NiZGIzNjFmOWVjMThkNzI5ZWY2ZDkwMmZmYzQ"
@@ -304,7 +310,7 @@
                                         <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White,
                                             INOVARH1CC</h4>
                                         <p> Deal price : <b>₹1,499.00</b></p>
-                                        <p >M.R.P :<s class="ptag"> <em>₹1,699.00</em></s></p>
+                                        <p>M.R.P :<s class="ptag"> <em>₹1,699.00</em></s></p>
                                         <p>You Save : 12%(₹200)</p>
                                         <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
                                     </div>
@@ -314,7 +320,7 @@
                                         <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White,
                                             INOVARH1CC</h4>
                                         <p> Deal price : <b>₹1,319.00</b></p>
-                                        <p >M.R.P : <s class="ptag"><em>₹1,699.00</em></s></p>
+                                        <p>M.R.P : <s class="ptag"><em>₹1,699.00</em></s></p>
                                         <p>You Save : 22%(₹380)</p>
                                         <p class="offp" style="color: #44af40; padding: 0px;">OFFER AVAILABLE</p>
 
@@ -325,7 +331,7 @@
                                         <h4>Candes Inova 2000W Fan-based Room Heater with Over-Heat Protection, White,
                                             INOVARH1CC</h4>
                                         <p> Deal price : <b>₹1,299.00</b></p>
-                                        <p >M.R.P : <s class="ptag"><em>₹2,299.00</em></s></p>
+                                        <p>M.R.P : <s class="ptag"><em>₹2,299.00</em></s></p>
                                         <p>You Save : 43%(₹1000)</p>
                                         <p class="offp" style="color: #44af40;">OFFER AVAILABLE</p>
                                     </div>
@@ -347,7 +353,7 @@
             <span class="mss_title"> GREAT DEALS ON ELECTRONICS </span>
         </div>
         <div class="home_4banner">
-            <div class="move_left" >
+            <div class="move_left">
                 <div class="lazy-load">
                     <div class="autoAdjust"></div>
                     <img src="https://www.reliancedigital.in/medias/Smartwatches-Small-Banners-01.jpg?context=bWFzdGVyfGltYWdlc3w0NDA0MnxpbWFnZS9qcGVnfGltYWdlcy9oNTAvaGRiLzk5MjgzNzA5MTMzMTAuanBnfGYwOWU2ZjQ3Y2Y0OWI2NmVhZGVkYWM2M2ZiMzQ4YTlhODRkZDY4ODZmODA1OGQyZWNiYWVhODNmNWM2YWMwMmY"
@@ -686,9 +692,15 @@
                     </div>
                     <div>
                         <ul>
-                            <li class="socialimage"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt=""></i></li>
-                            <li  class="socialimage"><img src="https://toppng.com/uploads/preview/youtube-logo-png-116186698684etjs0nnhw.png" alt=""></li>
-                            <li  class="socialimage"><img src="https://i.pinimg.com/736x/ee/af/9c/eeaf9ce3ab22ecb3904daea1b2eab04a.jpg" alt=""></li>
+                            <li class="socialimage"><img
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"
+                                    alt=""></i></li>
+                            <li class="socialimage"><img
+                                    src="https://toppng.com/uploads/preview/youtube-logo-png-116186698684etjs0nnhw.png"
+                                    alt=""></li>
+                            <li class="socialimage"><img
+                                    src="https://i.pinimg.com/736x/ee/af/9c/eeaf9ce3ab22ecb3904daea1b2eab04a.jpg"
+                                    alt=""></li>
                         </ul>
                     </div>
 

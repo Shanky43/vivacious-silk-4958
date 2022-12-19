@@ -263,34 +263,46 @@ html {
 }
 
 #hovers {
-    position: absolute;
-    list-style: none;
+    /* position: absolute;
+    /* list-style: none; */
+    /*color: black; */
 }
 
 .flex {
-    display: flex;
-    display: none;
+ 
     position: absolute;
+    display: none;
     background-color: #003380;
     color: white;
-    top: 150px;
+    top: 124px;
     left: 26px;
     justify-content: space-between;
-    width: 100%;
+    width: 50%;
+    z-index: 100;
+    margin: auto;
+    
 
+}
+.flex{
+    display: flex;
+    margin: auto;
+    display: none;
 }
 
 .flex-1 {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
-    position: relative;
+    padding-bottom: 10px;
+    
+    
 }
 
 .nav_description_items {
     font-size: 14px;
     font-weight: 600;
     padding: 10px 16px;
-    position: absolute;
+
 }
 
 .nav_description_subitems {
