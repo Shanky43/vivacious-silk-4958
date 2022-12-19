@@ -68,9 +68,21 @@ function pincheck(pinvalue){
      
     }
 }
-  
+  let cart_status=document.getElementById("cartstatus")
 addtocartbtn.addEventListener("click", () => {
-      
+   
+
+    
+        cart_status.style.display="block"
+   
+
+    setTimeout(function(){
+        cart_status.style.display="none"
+        setTimeout(() => {
+            window.location.href = "./cart.html"
+        },200);
+    },500)
+  
     localStorage.setItem("cartData", JSON.stringify(pinvalue1))
 });
 
@@ -89,7 +101,20 @@ function getData(data) {
     console.log(newdata)
 }
 getData(arr)
+let buy_button=document.getElementById("buy_now_main_btn")
+let isregister = localStorage.getItem("isregister")||false;
 
+buy_button.addEventListener("click",()=>{
+    if(isregister){
+        window.location.href = "./cart.html"
+    }else{
+        alert("Please Login")
+        setTimeout(()=>{
+            window.location.href = "./loginpage.html"
+        },2000)
+        
+    }
+})
 
 
 

@@ -70,7 +70,8 @@ function received(cart_Data){
         let i =qtn.value;
         console.log(i)
         minusbtn.addEventListener("click",()=>{
-           let ans= i--;
+          i--
+          let ans=i
           if(ans>=1){
                 document.getElementById("qty").value=ans
                 console.log(i)
@@ -115,14 +116,21 @@ function received(cart_Data){
 re_load(cart_Data)
 received(cart_Data)
 
-
+let order_status =document.getElementById("orderstatus")
 
 let buy_button=document.getElementById("btn-cab")
 
 buy_button.addEventListener("click",()=>{
+
     setTimeout(function(){
-        alert("Your order placed SucessFully")
+        order_status.style.display="block";
     },1000)
+    setTimeout(()=>{
+        order_status.style.display="none";
+    },2000)
+ 
 })
+
+
 
 
