@@ -201,7 +201,11 @@ ul {
     position: relative;
     color: inherit;
 }
-
+.ahref{
+    font-family:Roboto, "system-ui", sans-serif ;
+    color: white;
+    text-decoration: none;
+}
 .header_info_list_item_login {
     align-items: flex-end;
     justify-content: space-between;
@@ -847,3 +851,8 @@ body #root {
     border-top: 1px solid hsla(0, 0%, 100%, .1);
     padding-bottom: 30px;
 }
+.socialimage img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    }

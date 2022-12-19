@@ -180,7 +180,11 @@
         font-weight: 600;
         cursor: pointer;
     }
-
+    .ahref{
+        font-family:Roboto, "system-ui", sans-serif ;
+        color: white;
+        text-decoration: none;
+    }
     .header_info_list_item {
         border-left: 1px solid #dadada;
         font-size: 14px;
@@ -958,3 +962,8 @@ height: 5vh;
 }
 
 /*  */
+.socialimage img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    }

@@ -54,16 +54,16 @@
                             </div>
                         </li>
                         <li class="header_info_list_item_cart">
-                            <a href="./cart.html" target="_blank" class="forcart">
+                            <a href="./cart.html" target="_blank" class="forcart ahref">
                                 <i class="fa fa-shopping-cart header__maininfo__list__item__icon"
                                     aria-hidden="true"></i>Cart
                             </a>
                         </li>
                         <li class="header_info_list_item_login">
-                            <span class="header_info_list_item_login_inside_1">
-                                <i class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
+                            <a href="./loginpage.html" class="ahref"><span class="header_info_list_item_login_inside_1">
+                               <i class="fa fa-user header__maininfo__list__item__icon" aria-hidden="true"></i>
                                 Login
-                            </span>
+                            </span></a>
                         </li>
                     </ul>
                 </div>
@@ -149,6 +149,7 @@
                 </nav>
             </div>
         </header>
+        
         <!-- header section ends -->
 <main id="main">
         <div class="maindiv">
@@ -166,17 +167,17 @@
                        </div>
                        <div class="opt_text">
                         <p>Please enter the OTP sent to your mobile number</p>
-                        <div>
-                            <span class="otp"></span>
-                        </div>
+                        
+                            <span id="otp"></span>
+                        
                        </div>
-                        <input type="number" name="mobilenumber" id="mobno" minlength="10" maxlength="10"
-                            placeholder="Enter Mobile Number">
-
+                        <input type="number" name="mobilenumber" id="mobno"  minlength="6" maxlength="6"
+                            placeholder="Enter OTP*">
+                        <div class="resendotp" id="resendotp" >Resend OTP</div>
                     </div>
                    <div class="verification">
-                    <div class="btn"><button class="loginbtn"> LOGIN</button></div>
-                    <div class="btn"><button class="backbtn"> BACK</button></div>
+                    <div class="btn"><button class="loginbtn" id="loginbtn"> LOGIN</button></div>
+                    <div class="btn"><a href="./loginpage.html"><button class="backbtn"> BACK</button></a></div>
                    </div>
                 </div>
             </div>
@@ -254,9 +255,9 @@
                         </div>
                         <div>
                             <ul>
-                                <li><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-twitter-square" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-youtube-square" aria-hidden="true"></i></li>
+                                <li class="socialimage"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" alt=""></i></li>
+                                <li  class="socialimage"><img src="https://toppng.com/uploads/preview/youtube-logo-png-116186698684etjs0nnhw.png" alt=""></li>
+                                <li  class="socialimage"><img src="https://i.pinimg.com/736x/ee/af/9c/eeaf9ce3ab22ecb3904daea1b2eab04a.jpg" alt=""></li>
                             </ul>
                         </div>
     
@@ -308,7 +309,7 @@
         </footer>
     </div>
 </body>
-<script>
+<script src="./logining.js">
 
 </script>
 
